@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Consumption App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>⚡ Energy Consumption</h1>
+</header>
+
+<div class="container">
+
+    <nav class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Usage</a>
+        <a href="#">Reports</a>
+        <a href="#">Alerts</a>
+        <a href="#">Profile</a>
+    </nav>
+
+    <main class="content">
+        <h2>Dashboard</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Today's Usage</h3>
+                <p>12.5 kWh</p>
+            </div>
+            <div class="card">
+                <h3>Monthly Usage</h3>
+                <p>320 kWh</p>
+            </div>
+            <div class="card">
+                <h3>Estimated Cost</h3>
+                <p>₹1,920</p>
+            </div>
+            <div class="card">
+                <h3>Energy Saved</h3>
+                <p>18%</p>
+            </div>
+        </div>
+
+        <div class="tips">
+            <h3>Energy Saving Tips</h3>
+            <ul>
+                <li>Turn off appliances when not in use</li>
+                <li>Use LED bulbs</li>
+                <li>Unplug chargers after use</li>
+            </ul>
+        </div>
+    </main>
+
+</div>
+
+</body>
+</html>
